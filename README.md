@@ -9,14 +9,13 @@ Los archivos `snmp.sh` y `ping.sh` tiene los comandos básicos para su ejecució
 
 ## Requerimientos
 Se requiere un archivo `elements.csv` que contenga todas las IPs y comunidades a consultar. 
-> **Nota:** Deben estar en el orden de: _IP, COMUNIDAD,_
 ```
-192.163.10.45, comunidad, 192.163.29.36, comunidad, ...
+ip, comunidad, ip, comunidad, ...
 ```
 
 ## Funcionamiento
 ```bash
-bash consults_snmp [cantidad_de_consultas] [parte_de_consultas]
+bash consults_snmp.sh [cantidad_de_consultas] [parte_de_consultas]
 ```
 **Cantidad de consultas:** Este script puede ejecutar una cantidad determinada de consultas diferente a la cantidad de elementos (IP y Comunidad) que se suministre. 
 <br>
