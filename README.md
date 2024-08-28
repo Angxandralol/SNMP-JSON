@@ -13,7 +13,7 @@ ip, comunidad, ip, comunidad, ...
 ```
 
 ## Funcionamiento
-**Advertencias**<br>
+> **Advertencias:**
 Los archivos `snmp.sh` y `ping.sh` tiene los comandos básicos para su ejecución. Es necesario su verificar que los comandos por defecto funcionen en el equipo, en caso contrario, puede especificar el comando correcto cambiando la variable `COMMAND` del archivo necesario. 
 
 ```bash
